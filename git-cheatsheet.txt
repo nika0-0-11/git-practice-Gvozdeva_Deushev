@@ -1,0 +1,24 @@
+mkdir - создать папку
+touch - создать файл
+git inir - инициализировать Git-репозиторий
+git status - проверить статус
+git add . - добавление всех файлов
+git commit -m "test" - создание коммита
+git log - показывает историю коммитов в выбранной ветке
+git push - отправление изменений в удаленный репозиторий
+git version - проверка версии Git
+git config user.name - никнейм при коммите проекта
+git config user.email - почта для коммита проекта
+cd - для переключения между папками
+git remote add origin ссылка_на_репозиторий - привязка удаленного репозитория к локальному
+git show ваш_хеш - показывает что было в коммите 
+git switch -c - создать и переключиться
+git switch - просто переключится
+git branch - показывает все ветки 
+git branch -d "название ветки" - удаляет ветку
+git pull - обновляем ветку
+git fetch --prune - актуальное состояние ветки
+
+Если в разделе SOURCE CONTROL нет GITLENS нужно скачать расширение GitLens
+Также если не работает Git Graph через (CRTL + SHIFT + P, Git Graph: View Git Graph (git log)) ->
+-> в SOURCE CONTROL на скриншоте 7-GitGraph-Gvozdeva_Deushev будет показно куда нажимать чтобы открылся график
